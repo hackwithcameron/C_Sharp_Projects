@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="QuotesModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Car">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Car Year" Type="varchar" MaxLength="50" />
+    <Property Name="Car Make" Type="varchar" MaxLength="50" />
+    <Property Name="Car Model" Type="varchar" MaxLength="50" />
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+  </EntityType>
+  <EntityType Name="User">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="First Name" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Last Name" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Email Address" Type="varchar(max)" />
+    <Property Name="DOB" Type="datetime" />
+    <Property Name="DUI" Type="varchar" MaxLength="50" />
+    <Property Name="Speeding Tickets" Type="int" />
+    <Property Name="Coverage" Type="varchar" MaxLength="50" />
+    <Property Name="Quote" Type="money" />
+  </EntityType>
+  <EntityContainer Name="QuotesModelStoreContainer">
+    <EntitySet Name="Car" EntityType="Self.Car" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="User" EntityType="Self.User" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

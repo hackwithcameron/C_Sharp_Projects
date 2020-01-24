@@ -1,0 +1,77 @@
+﻿@{
+    ViewBag.Title = "Index";
+}
+<div class="row">
+    <div class="card col-sm-12 col-md-8 col-ld-6 mx-auto shadow">
+        <div class="card-header text-center">
+            <h3 class="m-0">Free Quotes!</h3>
+        </div>
+        <div class="card-body">
+            @using (Html.BeginForm("QuoteInfo", "Home", FormMethod.Post))
+            {
+                <div class="row no-gutters">
+                    <div class="form-row col-md-12">
+                        <div class="form-group col-md-6">
+                            <label>First Name:</label>
+                            <input name="firstName" type="text" class="form-control" placeholder="First Name" />
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label>Last Name:</label>
+                            <input name="lastName" type="text" class="form-control" placeholder="Last Name" />
+                        </div>
+                    </div>
+                    <div class="form-row col-md-12">
+                        <div class="form-group col-md-6">
+                            <label>Email Address:</label>
+                            <input name="emailAddress" type="email" class="form-control" placeholder="Email Address" />
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label>DOB:</label>
+                            <input name="dob" type="date" class="form-control" placeholder="Date of Birth" />
+                        </div>
+                    </div>
+                    <div class="form-group col-md-12">
+                        <label>Year:</label>
+                        <input name="carYear" type="text" class="form-control" placeholder="Year of Vehicle" />
+                    </div>
+                    <div class="form-group col-md-12">
+                        <label>Make:</label>
+                        <input name="carMake" type="text" class="form-control" placeholder="Make of Vehicle" />
+                    </div>
+                    <div class="form-group col-md-12">
+                        <label>Model:</label>
+                        <input name="carModel" type="text" class="form-control" placeholder="Model of Vehicle" />
+                    </div>
+                    <fieldset class="form-group">
+                        <div class="row">
+                            <legend class="col-form-label col-md-8 pt-0">Ever had a DUI?</legend>
+                            <div class="col-md-4">
+                                <div class="form-check">
+                                    <input name="dui" type="radio" class="form-check-input" id="duiYes" value="Yes" />
+                                    <label class="form-check-label" for="duiYes">Yes</label>
+                                </div>
+                                <div class="form-check">
+                                    <input name="dui" type="radio" class="form-check-input" id="duiNo" value="No" />
+                                    <label class="form-check-label" for="duiNo">No</label>
+                                </div>
+                            </div>
+                        </div>
+                    </fieldset>
+                    <div class="form-group col-md-12">
+                        <label>Number of Speeding Tickets:</label>
+                        <input name="speedTickets" type="number" class="form-control" placeholder="Number of tickets" />
+                    </div>
+                    <div class="form-group col-md-12">
+                        <label>Type of Coverage:</label>
+                        <select name="coverage" class="custom-select mr-sm-2" id="coverage">
+                            <option selected>Choose...</option>
+                            <option value="Full Coverage">Full Coverage</option>
+                            <option value="Liability">Liability</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="btn btn-block btn-primary col-2">Submit</button>
+                </div>
+            }
+        </div>
+    </div>
+</div>
