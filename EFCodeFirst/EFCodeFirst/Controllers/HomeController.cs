@@ -36,7 +36,7 @@ namespace EFCodeFirst.Controllers
                 };
 
                 db.NewAccounts.Add(newAccount);
-                //db.SaveChanges();
+                db.SaveChanges();
 
                 var accounts = db.NewAccounts;
                 var accountVMs = new List<NewAccount>();
