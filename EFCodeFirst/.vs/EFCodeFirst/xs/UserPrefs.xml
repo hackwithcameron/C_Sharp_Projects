@@ -1,0 +1,28 @@
+﻿<Properties StartupConfiguration="{70963D63-642E-476C-BE68-1CD5CED936F8}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="EFCodeFirst/Controllers/HomeController.cs">
+    <Files>
+      <File FileName="EFCodeFirst/Controllers/HomeController.cs" Line="39" Column="34" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="EFCodeFirst" expanded="True">
+            <Node name="EFCodeFirst" expanded="True">
+              <Node name="Dependencies" expanded="True" />
+              <Node name="Controllers" expanded="True">
+                <Node name="HomeController.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.EFCodeFirst PreferredExecutionTarget="/Applications/Firefox.app" />
+  <MultiItemStartupConfigurations />
+</Properties>

@@ -7386,30 +7386,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Student\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "/Users/cameronhackwith/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Student\\source\\repos\\EFCodeFirst\\EFCodeFirst\\EFCodeFirst.csproj",
+      "projectUniqueName": "/Users/cameronhackwith/Documents/School_Projects/C_Sharp_Projects/EFCodeFirst/EFCodeFirst/EFCodeFirst.csproj",
       "projectName": "EFCodeFirst",
-      "projectPath": "C:\\Users\\Student\\source\\repos\\EFCodeFirst\\EFCodeFirst\\EFCodeFirst.csproj",
-      "packagesPath": "C:\\Users\\Student\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Student\\source\\repos\\EFCodeFirst\\EFCodeFirst\\obj\\",
+      "projectPath": "/Users/cameronhackwith/Documents/School_Projects/C_Sharp_Projects/EFCodeFirst/EFCodeFirst/EFCodeFirst.csproj",
+      "packagesPath": "/Users/cameronhackwith/.nuget/packages/",
+      "outputPath": "/Users/cameronhackwith/Documents/School_Projects/C_Sharp_Projects/EFCodeFirst/EFCodeFirst/obj/",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Student\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/cameronhackwith/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -7461,7 +7455,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.101/RuntimeIdentifierGraph.json"
       }
     }
   }
